@@ -2,7 +2,7 @@ version: "3.8"
 
 services:
   eureka-server:
-    image: ghcr.io/<your-github-username>/eureka-server:latest
+    image: ghcr.io/${{ github.actor }}/eureka-server:latest
     container_name: eureka-server
     ports:
       - "8761:8761"
