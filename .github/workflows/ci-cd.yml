@@ -36,8 +36,8 @@ jobs:
       # Build and push Docker image
       - name: Build & Push Docker image
         run: |
-          docker build -t ghcr.io/${{ github.repository }}/eureka-server:latest .
-          docker push ghcr.io/${{ github.repository }}/eureka-server:latest
+          docker build -t ghcr.io/kyul2022/eureka-server:latest .
+          docker push ghcr.io/kyul2022/eureka-server:latest
 
       # Deploy to VPS
       - name: Deploy via SSH
