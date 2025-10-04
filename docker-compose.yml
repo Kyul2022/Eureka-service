@@ -2,7 +2,7 @@ version: "3.8"
 
 services:
   eureka-server:
-    image: ghcr.io/Kyul2022/eureka-server:latest
+    image: ghcr.io/Kyul2022/Eureka-service/eureka-server:latest
     container_name: eureka-server
     ports:
       - "8761:8761"
