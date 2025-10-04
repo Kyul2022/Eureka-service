@@ -23,7 +23,7 @@ jobs:
 
       # Build Spring Boot JAR
       - name: Build JAR
-        run: bash mvnw clean package -DskipTests
+        run: ./mvnw clean package -DskipTests
 
       # Login to GitHub Container Registry (GHCR)
       - name: Log in to GitHub Container Registry
